@@ -59,7 +59,7 @@ Before you begin, make sure you have the following software installed on your sy
    npm run dev
    ```
 
-   This will start the React development server, and your client application will be accessible at `http://localhost:3000`.
+   This will start the React development server, and your client application will be accessible at `http://localhost:5173`.
 
 ### Running the Server
 
@@ -75,7 +75,7 @@ Before you begin, make sure you have the following software installed on your sy
    npm start
    ```
 
-   This will start the server, and it will be accessible at `http://localhost:your-server-port`.
+   This will start the server, and it will be accessible at `http://localhost:3001`.
 
 ### MongoDB Configuration
 
@@ -85,18 +85,10 @@ Make sure you have MongoDB running locally or provide the appropriate connection
 
 - `client`: Contains the client-side React application.
 - `server`: Contains the server-side Node.js application.
-- `server/models`: Define MongoDB schemas and models here.
-- `server/routes`: Define API routes and controllers here.
-- `server/config`: Store configuration files, including MongoDB connection settings, here.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+- `server/models`: Define MongoDB schemas and models here.connection settings, here.
 
 ## Acknowledgments
 
 - [React](https://reactjs.org/)
 - [Vite](https://vitejs.dev/)
 - [MongoDB](https://www.mongodb.com/)
-
-Feel free to customize this README to match the specific details of your project. Good luck with your React project!
