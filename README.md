@@ -77,6 +77,13 @@ Before you begin, make sure you have the following software installed on your sy
 
    This will start the server, and it will be accessible at `http://localhost:3001`.
 
+## Logging In
+
+To access the application, you can use the following credentials:
+
+- **Username:** coffeevalleyadmin
+- **Password:** admin123
+
 ### MongoDB Configuration
 
 Make sure you have MongoDB running locally or provide the appropriate connection URI in the server's configuration files to connect to your MongoDB instance.
